@@ -1,0 +1,30 @@
+PATH
+  remote: .
+  specs:
+    faster_cosine (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    benchmark-ips (2.14.0)
+    power_assert (2.0.3)
+    rake (13.2.1)
+    rake-compiler (1.2.7)
+      rake
+    rb_sys (0.9.102)
+    test-unit (3.6.2)
+      power_assert
+
+PLATFORMS
+  arm64-darwin-23
+  ruby
+
+DEPENDENCIES
+  benchmark-ips (~> 2.14)
+  faster_cosine!
+  rake-compiler (~> 1.2)
+  rb_sys (~> 0.9)
+  test-unit (~> 3.6)
+
+BUNDLED WITH
+   2.5.19

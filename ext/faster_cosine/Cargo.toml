@@ -1,0 +1,20 @@
+[package]
+name = "faster_cosine"
+version = "0.0.1"
+edition = "2021"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+magnus = { version = "0.7.1", features = ["rb-sys"] }
+rb-sys = { version = "*", default-features = false, features = ["stable-api-compiled-fallback"] }
+
+[build-dependencies]
+rb-sys-env = "0.1.2"
+
+[profile.release]
+codegen-units = 1
+debug = 2
+lto = "thin"

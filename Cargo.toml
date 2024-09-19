@@ -1,0 +1,3 @@
+[workspace]
+members = ["ext/faster_cosine"]
+resolver = "2"

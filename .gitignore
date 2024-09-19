@@ -1,0 +1,10 @@
+.DS_Store
+
+*.gem
+
+tmp/
+.bundle/
+
+ext/faster_cosine/target
+lib/faster_cosine/faster_cosine.bundle
+lib/faster_cosine/faster_cosine.so
