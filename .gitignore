@@ -3,6 +3,7 @@
 *.gem
 
 tmp/
+target/
 .bundle/
 
 ext/faster_cosine/target
